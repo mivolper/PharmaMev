@@ -1,0 +1,234 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmaMev"
+        xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:WpfControls="clr-namespace:Nevron.Nov.WpfControls;assembly=Nevron.Nov.WpfControls" xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" x:Class="PharmaMev.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="770" Width="1370" WindowState="Maximized"  WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize"  >
+
+    <Window.Resources>
+        <Storyboard x:Key="MenuOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="74"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="220"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="MenuClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="220"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="74"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="BorderOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Height)" Storyboard.TargetName="SubBorder">
+                <EasingDoubleKeyFrame KeyTime="0" Value="20"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="750"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="BorderClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Height)" Storyboard.TargetName="SubBorder">
+                <EasingDoubleKeyFrame KeyTime="0" Value="750"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="20"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="KeyBoardOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Height)" Storyboard.TargetName="GridKeyBoard">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="370"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+
+        <Storyboard x:Key="KeyBoardClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Height)" Storyboard.TargetName="GridKeyBoard">
+                <EasingDoubleKeyFrame KeyTime="0" Value="370"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+
+
+    <Window.Triggers >
+        <EventTrigger  RoutedEvent="ButtonBase.Click" SourceName="btnOpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuOpen}"/>
+        </EventTrigger>
+
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnCloseMenu" >
+            <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
+        </EventTrigger>
+
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnAddOpen">
+            <BeginStoryboard Storyboard="{StaticResource BorderOpen}"/>
+        </EventTrigger>
+
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnAlerts">
+            <BeginStoryboard Storyboard="{StaticResource BorderOpen}"/>
+        </EventTrigger>
+
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="btnAddClose">
+            <BeginStoryboard Storyboard="{StaticResource BorderClose}"/>
+        </EventTrigger>
+
+
+        <EventTrigger RoutedEvent="GotFocus" SourceName="txt">
+            <BeginStoryboard Storyboard="{StaticResource KeyBoardOpen}"/>
+        </EventTrigger>
+
+        <EventTrigger RoutedEvent="GotFocus" SourceName="txt1">
+            <BeginStoryboard Storyboard="{StaticResource KeyBoardClose}"/>
+        </EventTrigger>
+
+    </Window.Triggers>
+
+    <!--MainGrid-->
+    <Grid x:Name="MainGrid" >
+
+        <TextBox  x:Name="txt" GotFocus="txt_GotFocus" />
+        <TextBox  x:Name="txt1" GotFocus="txt1_GotFocus" />
+
+        <!--CenterGrid-->
+        <Grid x:FieldModifier="public"  x:Name="GridUsc" Height="715" Width="1300" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="AliceBlue" MouseDown="GridUsc_MouseDown" />
+
+        <Border x:Name="SubBorder" CornerRadius="20"  HorizontalAlignment="Right" Background="White" Height="24" Width="700" VerticalAlignment="Top" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <Border.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="3" RenderingBias="Quality" />
+            </Border.Effect>
+            <Grid x:Name="SubGrid" HorizontalAlignment="Right" Background="White" Height="720" Width="700" VerticalAlignment="Center" ScrollViewer.VerticalScrollBarVisibility="Visible" >
+
+
+            </Grid>
+        </Border>
+
+        <!--TopGrid-->
+        <Grid Height="55" VerticalAlignment="Top" Background="#FF2196F3">
+            <!--Shadow-->
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="2" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <!--PowerButton-->
+            <Button x:Name="btnShutDown" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="55" Height="55" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Right" Margin="0 0 10 0" Click="btnPower_Click">
+                <materialdesign:PackIcon Kind="Power" Height="30" Width="30"/>
+            </Button>
+
+            <Button x:Name="btnMinmize" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="55" Height="55" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Right" Margin="0 0 70 0" Click="btnMinmize_Click">
+                <materialdesign:PackIcon Kind="WindowMinimize" Height="30" Width="30"/>
+            </Button>
+
+            <!--SettingButtom-->
+            <Button x:Name="btnAlerts" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="55" Height="55" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Right" Margin="0 0 130 0" Click="btnAlerts_Click">
+                <materialdesign:PackIcon Kind="Bell" Height="30" Width="30"/>
+            </Button>
+
+            <Button x:Name="btnAddOpen" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="55" Height="55" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Right" Margin="0 0 190 0" Click="btnAddOpen_Click">
+                <materialdesign:PackIcon Kind="Plus" Height="30" Width="30"/>
+            </Button>
+
+            <Button x:Name="btnAddClose" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="55" Height="55" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" HorizontalAlignment="Right" Margin="0 0 190 0" Click="btnAddClose_Click" >
+                <materialdesign:PackIcon Kind="ArrowCompressUp" Height="30" Width="30" />
+            </Button>
+
+            <CheckBox x:FieldModifier="public" x:Name="cbxTouchScreen" Content="شاشة اللمس" HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 0 260 0" FontFamily="Hacen Saudi Arabia" Foreground="White" FontSize="20" Background="White" Click="cbxTouchScreen_Click"/>
+        </Grid>
+
+        <Grid x:Name="GridKeyBoard" Width="820" Height="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="White">
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="2" RenderingBias="Quality"/>
+            </Grid.Effect>
+        </Grid>
+        
+        <Grid x:Name="GridMenu" Width="220" HorizontalAlignment="Left">
+            <!--Shadow-->
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="3" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <Grid Height="150" Background="White" VerticalAlignment="Top">
+                <Button x:Name="btnCloseMenu" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="12" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Click="btnCloseMenu_Click">
+                    <materialdesign:PackIcon Kind="ArrowExpandLeft" Height="25" Width="25" Foreground="#FF2196F3"/>
+                </Button>
+
+                <Button x:Name="btnOpenMenu" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="12" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="btnOpenMenu_Click">
+                    <materialdesign:PackIcon Kind="Menu" Height="25" Width="25"/>
+                </Button>
+            </Grid>
+
+
+            <Grid  Height="620" VerticalAlignment="Bottom" Background="White">
+                <ListView x:Name="list" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="list_SelectionChanged_1">
+                    <ListViewItem x:Name="btnSaleScreen" Height="50" Selected="ListViewItem_Selected">
+                        <Grid Width="210">
+                            <materialdesign:PackIcon Kind="ShoppingCart" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="شاشة البيع" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="btnBuyScreen" Height="50" Selected="btnBuyScreen_Selected">
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="MoneyUsd" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="شاشة  المشتريات" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+
+                    <ListViewItem x:Name="btnSettingScreen" Height="50" Selected="btnSettingScreen_Selected">
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="Settings" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="شاشة  الأعدادات" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+
+                    <ListViewItem x:Name="btnCauleMange" Height="50" Selected="btnCauleMange_Selected">
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="Men" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="ادارة الموردين" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="btnProductsMange" Height="50" Selected="btnProductsMange_Selected">
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="Medicine" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="ادارة الاصناف" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="btnGroupsMange" Height="50" Selected="btnGroupsMange_Selected">
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="Category" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="ادارة المجموعات" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="btnStoreMange" Height="50" Selected="btnStoreMange_Selected">
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="BoxDown" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="ادارة المخزن" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+                    <ListViewItem x:Name="btnReportsMange" Height="50" Selected="btnReportsMange_Selected" >
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="FileReport" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="ادارة التقارير" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+
+                    <ListViewItem x:Name="btnUsersMange" Height="50" Selected="ListViewItem_Selected_1" >
+                        <Grid Width="210" >
+                            <materialdesign:PackIcon Kind="User" Width="40" Height="40" Foreground="#FF2196F3" VerticalAlignment="Center" Margin="12 0 0 0"/>
+                            <TextBlock FontFamily="Hacen Saudi Arabia" Foreground="#FF2196F3" Text="ادارة المستخدمين" VerticalAlignment="Center" FontSize="18" Margin="0 0 9 0" HorizontalAlignment="Right"/>
+                        </Grid>
+                    </ListViewItem>
+                </ListView>
+            </Grid>
+
+        </Grid>
+
+    </Grid>
+</Window>

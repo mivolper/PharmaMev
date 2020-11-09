@@ -1,0 +1,52 @@
+﻿<Window x:Class="PharmaMev.Windows.LOGIN_WINDOW"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmaMev.Windows"
+        mc:Ignorable="d"
+        xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+        
+        Title="LOGIN_WINDOW" Height="400" Width="300" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid >
+        
+        <!--Grid background-->
+        <Grid.Background>
+            <LinearGradientBrush StartPoint=".5 0" EndPoint=".5 1">
+                <GradientStop Color="#FF2196F3" Offset=".7"/>
+                <GradientStop Color="White" Offset=".7"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        
+        <!--Border style-->
+        <Border Width="250" Height="300" Background="White" CornerRadius="10">
+            <!--Border Shadow-->
+            <Border.Effect>
+                <DropShadowEffect Color="Gray" Direction="0" ShadowDepth="3" RenderingBias="Quality"/>
+            </Border.Effect>
+            
+            <!--Login Controls-->
+            <StackPanel> 
+                <!--TextBox Name-->
+                <ComboBox x:Name="cmbName" Style="{StaticResource MaterialDesignFloatingHintComboBox}" materialdesign:HintAssist.Hint="اسم المستخدم" FontFamily="Hacen Saudi Arabia" Width="200" FontSize="15" FlowDirection="RightToLeft" IsReadOnly="True" Margin="0 30 0 10" />
+                <!--PassWardBox PassWard-->
+                <PasswordBox x:Name="txtPassWard"  Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             materialdesign:HintAssist.Hint="كلمة المرور" FontFamily="Hacen Saudi Arabia"
+                             Width="200" FlowDirection="RightToLeft" TabIndex="1" FontSize="15"/>
+                
+                <!--Buttons-->
+                <StackPanel >
+                    
+                    <Button x:Name="btnLogin" Content="تسجيل" FontFamily="Hacen Saudi Arabia"
+                            Width="205" Height="30" Margin="0 40 0 20" Click="btnLogin_Click"
+                            TabIndex="2"/>
+
+                    <Button x:Name="btnColse" Content="خروج" FontFamily="Hacen Saudi Arabia"
+                            Width="205" Height="30" Click="btnColse_Click" 
+                            TabIndex="3"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

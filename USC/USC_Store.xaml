@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="PharmaMev.USC.USC_Store"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PharmaMev.USC"
+             mc:Ignorable="d" 
+             xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             d:DesignHeight="715" d:DesignWidth="1300" Loaded="UserControl_Loaded"  >
+    <Grid>
+        <Grid Background="White" Width="550" HorizontalAlignment="Right">
+            <Grid.Effect>
+                <DropShadowEffect ShadowDepth="3" Color="LightGray" RenderingBias="Quality" Direction="360"/>
+            </Grid.Effect>
+            
+            <RadioButton x:Name="rbtnSearchBarcode" Style="{StaticResource MaterialDesignRadioButton}" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="Hacen Saudi Arabia" FontSize="18" Foreground="#FF555454" FlowDirection="RightToLeft" Margin="0 30 30 0">بحث حسب الباركود</RadioButton>
+            <RadioButton x:Name="rbtnSearchName" Style="{StaticResource MaterialDesignRadioButton}" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" FontFamily="Hacen Saudi Arabia" FontSize="18" Foreground="#FF555454" FlowDirection="RightToLeft" Margin="0 80 30 0">بحث حسب الاسم</RadioButton>
+
+            <TextBox x:Name="txtSearchProduct" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialdesign:HintAssist.Hint="بحث" FontFamily="Hacen Saudi Arabia" Width="300" FontSize="18" FlowDirection="RightToLeft" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 120 30 0" TextChanged="txtSearchProduct_TextChanged"/>
+            <TextBox x:Name="txtDefectiveProduct" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialdesign:HintAssist.Hint=" كمية الوحدات المعيبة" FontFamily="Hacen Saudi Arabia" Width="300" FontSize="18" FlowDirection="RightToLeft" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 200 30 0" />
+      
+            <Button x:Name="btnSaveDefective" Content="اضافة" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 280 30 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSaveDefective_Click"/>
+            <Button x:Name="btDeleteDefective" Content="ازالة" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 280 200 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSaveDefective_Click"/>
+            <Button x:Name="btInitializeDefective" Content="تصفير" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 280 370 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btInitializeDefective_Click"/>
+
+            <TextBox x:Name="txtQuantity" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialdesign:HintAssist.Hint="الكمية لاعطاء تنبيه النواقص" FontFamily="Hacen Saudi Arabia" Width="300" FontSize="18" FlowDirection="RightToLeft" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 350 30 0" />
+            <Button x:Name="btnSaveQuantity" Content="حفظ" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 430 30 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSaveQuantity_Click"/>
+            <Button x:Name="btnSerchQuantity" Content="بحث" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 430 200 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSerchQuantity_Click"/>
+
+            <TextBox x:Name="txtDate" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialdesign:HintAssist.Hint="المدة باليوم لاعطاء تنبيه الصلاحية" FontFamily="Hacen Saudi Arabia" Width="300" FontSize="18" FlowDirection="RightToLeft" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 500 30 0" />
+
+            <Button x:Name="btnSaveDate" Content="حفظ" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 580 30 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSaveDate_Click"/>
+            <Button x:Name="btnSerchDate"  Content="بحث" FontFamily="Hacen Saudi Arabia" Width="150" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 580 200 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSerchDate_Click"/>
+
+        </Grid>
+
+        <Grid Background="White" Width="740" HorizontalAlignment="Left">
+            <Grid.Effect>
+                <DropShadowEffect ShadowDepth="3" Color="LightGray" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <DataGrid x:Name="dgProducts" x:FieldModifier="public" IsReadOnly="True"  AutoGenerateColumns="False" ItemsSource="{Binding }"  Background="White" FlowDirection="RightToLeft" SelectionMode="Extended"  FontFamily="Hacen Saudi Arabia" FontSize="14" SelectionUnit="FullRow"  ScrollViewer.VerticalScrollBarVisibility="Visible"   ScrollViewer.HorizontalScrollBarVisibility="Disabled"  >
+                <DataGrid.Columns>
+                    <DataGridTextColumn  x:Name="IDProductsColumn" Width="0" Header="ر.ت" Binding="{Binding ID_Product}"/>
+                    <DataGridTextColumn  x:Name="NameProductsColumn" Width="125" Header="اسم المنتج" Binding="{Binding Name}"/>
+                    <DataGridTextColumn  x:Name="UnitColumn" Width="90" Header="الوحدة" Binding="{Binding Units}"/>
+                    <DataGridTextColumn  x:Name="QuantityColumn" Width="115" Header="الكمية بالقطعة" Binding="{Binding Quantity}"/>
+                    <DataGridTextColumn  x:Name="UnitQuantityColumn" Width="115" Header="الكمية بالوحدة" Binding="{Binding UnitQuantity}"/>
+                    <DataGridTextColumn  x:Name="DefectiveQuantityColumn" Width="145" Header="كمية الوحدات المعيبة" Binding="{Binding Defective}"/>
+                    <DataGridTextColumn  x:Name="EX_DateColumn" Width="115" Header="تاريخ الصلاحية" Binding="{Binding EX_Date}"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+    
+</UserControl>

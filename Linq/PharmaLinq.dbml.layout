@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.125" name="PharmaLinq">
+  <DataContextMoniker Name="/PharmaLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5760ab37-464b-4517-a0a9-2c0d9d2acfb6" absoluteBounds="7.375, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Group" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e3066487-a597-4844-bf21-7c5cc1e71321" absoluteBounds="7.3900000000000006, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="96cb47ec-d732-4f01-bc79-5b67ef775504" absoluteBounds="5.125, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="752f680a-8f7b-4dac-9fe1-034e7cd108b9" absoluteBounds="5.1400000000000006, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3142912-3be0-4885-b8ef-0f0db241eadc" absoluteBounds="7.375, 3.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Caule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8485d3be-cd5a-4f25-8213-655e02801d93" absoluteBounds="7.3900000000000006, 4.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d327a501-bb62-4bd6-91b6-91284681689d" absoluteBounds="0.625, 3.875, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61de4705-9d8f-43df-be14-fd2d6d9f5d60" absoluteBounds="0.64000000000000012, 4.335, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.375 : 1.53929768880208); (7.1875 : 1.53929768880208); (7.1875 : 2.39109537760417); (4.9375 : 2.39109537760417); (4.9375 : 3.16030110677083); (1.625 : 3.16030110677083); (1.625 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PharmaLinqDataContext/Group/Group_Product" />
+      <nodes>
+        <classShapeMoniker Id="5760ab37-464b-4517-a0a9-2c0d9d2acfb6" />
+        <classShapeMoniker Id="d327a501-bb62-4bd6-91b6-91284681689d" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c171bd9c-e38a-4e70-8d03-43350c3e7fad" absoluteBounds="2.875, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/PharmaLinqDataContext/BuysAction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="41d20202-685d-4b7d-8204-d07b5f2673f2" absoluteBounds="2.89, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7fc893c3-dd1e-4552-b84f-4152283d67de" absoluteBounds="2.875, 6.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/PharmaLinqDataContext/SalesAction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6bf2c233-740c-4e6b-93a0-510bec09e17b" absoluteBounds="2.89, 6.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="56c209c0-2f30-485a-a836-2b1990b5908f" absoluteBounds="0.625, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Buy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a74483d7-7d2b-41cc-a287-b762378cf334" absoluteBounds="0.64000000000000012, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a574653d-c96a-42ff-aa7f-05379235518f" absoluteBounds="5.25, 2.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Store" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebc9fee7-8ee3-464d-9713-0205330179a1" absoluteBounds="5.265, 2.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32658be8-8755-455e-a2c6-6fe194569fe9" absoluteBounds="5.25, 3.875, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/PharmaLinqDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25d61717-2524-4eea-9ca9-ec1dc7be39cd" absoluteBounds="5.265, 4.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cf8c4176-b847-4347-af87-f5fc5bf2de2b" absoluteBounds="2.875, 3.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/PharmaLinqDataContext/Sale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2c5056b3-11bc-4013-bbd2-b00dd19a8d0d" absoluteBounds="2.89, 4.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

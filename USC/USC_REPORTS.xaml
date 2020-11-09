@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="PharmaMev.USC.USC_REPORTS"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PharmaMev.USC"
+             xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"             
+             d:DesignHeight="715" d:DesignWidth="1300" Height="715" Loaded="UserControl_Loaded">
+    <Grid >
+        <Grid HorizontalAlignment="Right" Width="1300" Height="340" VerticalAlignment="Top" Background="AliceBlue" FlowDirection="RightToLeft">
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="3" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <RadioButton x:Name="rbtnBuy" Style="{StaticResource MaterialDesignRadioButton}" Height="40" Content="فتورة المشتريات" FontSize="18" FontFamily="Hacen Saudi Arabia" Foreground="#FF555454" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="30 20 0 0" Padding="10 0 0 0" Checked="rbtnBuy_Checked"/>
+            <RadioButton x:Name="rbtnSale" Style="{StaticResource MaterialDesignRadioButton}" Height="40" Content="فتورة المبيعات" FontSize="18" FontFamily="Hacen Saudi Arabia" Foreground="#FF555454" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="30 60 0 0" Padding="10 0 0 0" Checked="rbtnSale_Checked"/>
+            <RadioButton x:Name="rbtnDebt" Style="{StaticResource MaterialDesignRadioButton}" Height="40" Content="فتورة الأجل" FontSize="18" FontFamily="Hacen Saudi Arabia" Foreground="#FF555454" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="30 100 0 0" Padding="10 0 0 0" Checked="rbtnDebt_Checked"/>
+
+            <Button x:Name="btnSerch" Content="بحث" Height="40" Width="200" FontFamily="Hacen Saudi Arabia" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 160 0 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSerch_Click"/>
+            <Button x:Name="btnPrint" Content="طباعة" Height="40" Width="200" FontFamily="Hacen Saudi Arabia" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 220 0 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnPrint_Click"/>
+            <Button x:Name="btnEdit" Content="تعديل الفاتورة" Height="40" Width="200" FontFamily="Hacen Saudi Arabia" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20 280 0 0" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnEdit_Click"/>
+
+            <Grid Width="1050" HorizontalAlignment="Right" Background="White">
+
+                <TextBlock Text="الفلترة " FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="22" Foreground="#FF555454" Margin="30 10 0 0" Width="300" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+                <TextBox  x:Name="txtProduct" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="50" Width="200" materialdesign:HintAssist.Hint="باركود المنتج" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 60 0 0" IsEnabled="False" />
+                <CheckBox x:Name="cbxProducts" Content="بحث باسم المنتج" FontFamily="Hacen Saudi Arabia" FontSize="18" Margin="30 130 0 0" VerticalAlignment="Top" HorizontalAlignment="Left"  Click="cbxProducts_Click"/>
+
+                <ComboBox x:Name="cmbUser" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Height="50" Width="200" materialdesign:HintAssist.Hint="اسم المستخدم" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="290 60 0 0" IsEnabled="False"/>
+                <CheckBox x:Name="cbxUser" Content="بحث باسم المستخدم" FontFamily="Hacen Saudi Arabia" FontSize="18" Margin="290 130 0 0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="cbxUser_Click"/>
+
+                <TextBox  x:Name="txtBill" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Height="50" Width="200" materialdesign:HintAssist.Hint=" رقم الفاتورة" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="560 60 0 0" IsEnabled="False" />
+                <CheckBox x:Name="cbxBill" Content="بحث برقم الفاتورة" FontFamily="Hacen Saudi Arabia" FontSize="18" Margin="560 130 0 0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="cbxBill_Click"/>
+
+                <ComboBox x:Name="cmbPayType" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Height="50" Width="200" materialdesign:HintAssist.Hint="طريقة الدفع" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="30 210 0 0" IsEnabled="False"/>
+                <CheckBox x:Name="cbxPayType" Content="بحث بطريقة الدفع" FontFamily="Hacen Saudi Arabia"  FontSize="18" Margin="30,270,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="cbxPayType_Click" Width="184" IsEnabled="False"/>
+
+                <ComboBox x:Name="cmbCaule" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Height="50" Width="200" materialdesign:HintAssist.Hint="اسم المورد" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="290 210 0 0" IsEnabled="False"/>
+                <CheckBox x:Name="cbxCaule" Content="بحث بالمورد" FontFamily="Hacen Saudi Arabia"  FontSize="18" Margin="290,270,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="cbxCaule_Click" Width="184" IsEnabled="True" Checked="cbxCaule_Click"/>
+
+                <ComboBox x:Name="cmbCustomer" Style="{StaticResource MaterialDesignFloatingHintComboBox}" Height="50" Width="200" materialdesign:HintAssist.Hint="اسم الزبون" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="560 210 0 0" IsEnabled="False"/>
+                <CheckBox x:Name="cbxCustomer" Content="بحث بالزبون" FontFamily="Hacen Saudi Arabia"  FontSize="18" Margin="560,270,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="cbxCustomer_Click" Width="184" IsEnabled="False"/>
+
+                <DatePicker x:Name="dpFirstDate" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" Height="50" Width="200" materialdesign:HintAssist.Hint="من" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="820 60 0 0" IsEnabled="False"/>
+                <DatePicker x:Name="dpSecondDate" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" Height="50" Width="200" materialdesign:HintAssist.Hint="الى" FontFamily="Hacen Saudi Arabia" FontSize="18" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="820 130 0 0" IsEnabled="False" SelectedDateChanged="dpSecondDate_SelectedDateChanged"/>
+                <CheckBox x:Name="cbxDate" Content="بحث بالتاريخ" FontFamily="Hacen Saudi Arabia" FontSize="18" Margin="820 200 0 0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="cbxDate_Click"/>
+
+            </Grid>
+        </Grid>
+
+        <Grid HorizontalAlignment="Left" Width="1300" Height="365" VerticalAlignment="Bottom" Background="White" FlowDirection="RightToLeft">
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="3" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <Grid x:Name="grdSales" Width="200" HorizontalAlignment="Right" Visibility="Collapsed">
+                <TextBlock Text="اجمالي رأس المال" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="22" Foreground="#FF555454" TextAlignment="Center" Margin="0 30 15 0" Width="165" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                <TextBlock x:Name="txtTotal" Text="0" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="25" Foreground="Green" TextAlignment="Center" Margin="0 80 30 0" Width="150" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+                <TextBlock Text="اجمالي الأرباح " FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="22" Foreground="#FF555454" TextAlignment="Center" Margin="0 200 20 0" Width="150" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                <TextBlock x:Name="txtTotalprofits" Text="0" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="25" Foreground="Green" TextAlignment="Center" Margin="0 250 30 0" Width="150" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </Grid>
+
+            <Grid x:Name="grdDebt" Width="200" HorizontalAlignment="Right" Visibility="Collapsed" Background="White">
+                <TextBlock Text="اجمالي القيمة" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="22" Foreground="#FF555454" TextAlignment="Center" Margin="0 30 15 0" Width="165" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                <TextBlock x:Name="txtTotalPrice" Text="0" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="25" Foreground="Black" TextAlignment="Center" Margin="0 80 30 0" Width="150" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+                <TextBlock Text="اجمالي الدين" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="22" Foreground="#FF555454" TextAlignment="Center" Margin="0 200 20 0" Width="150" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+                <TextBlock x:Name="txtTotalDebt" Text="0" FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="25" Foreground="Red" TextAlignment="Center" Margin="0 250 30 0" Width="150" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+            </Grid>
+
+            <DataGrid x:Name="dgBill" Height="365" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"  AutoGenerateColumns="False" ItemsSource="{Binding }"  Background="White" FlowDirection="RightToLeft" SelectionMode="Extended"  FontFamily="Hacen Saudi Arabia" FontSize="14" SelectionUnit="FullRow"  ScrollViewer.VerticalScrollBarVisibility="Visible"   ScrollViewer.HorizontalScrollBarVisibility="Disabled" CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn  x:Name="BillIDColumn" Width="100" Header="رقم الفاتورة" Binding="{Binding ID}" IsReadOnly="True"/>
+                    <DataGridTextColumn  x:Name="NameColumn" Width="125" Header="المنتج" Binding="{Binding Name}"/>
+                    <DataGridTextColumn  x:Name="UnitColumn" Width="105" Header="الوحدة" Binding="{Binding Unit}"/>
+                    <DataGridTextColumn  x:Name="CustomerColumn" Width="100" Header="الزبون" Binding="{Binding CustomerName}" IsReadOnly="True" />
+                    <DataGridTextColumn  x:Name="CostColumn" Width="90" Header="التكلفة" Binding="{Binding Cost}" IsReadOnly="True" Foreground="Red"/>
+                    <DataGridTextColumn  x:Name="PriceColumn" Width="100" Header="السعر" Binding="{Binding Price}" IsReadOnly="True" Foreground="Green"/>
+                    <DataGridTextColumn  x:Name="QuantityColumn" Width="90" Header="الكمية" Binding="{Binding Quantity}" Foreground="#FF2196F3"/>
+                    <DataGridTextColumn  x:Name="PrieceColumn" Width="100" Header="السعر الأجمالي" Binding="{Binding TotalPrice}" IsReadOnly="True" Foreground="Green"/>
+                    <DataGridTextColumn  x:Name="PayTypeColumn" Width="100" Header="طريقة الدفع" Binding="{Binding PayType}" IsReadOnly="True" Foreground="Green"/>
+                    <DataGridTextColumn  x:Name="DateColumn" Width="210" Header="تاريخ الفاتورة" Binding="{Binding SaleDate}" IsReadOnly="True" />
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <DataGrid x:Name="dgBuyBill" Height="365" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"  AutoGenerateColumns="False" ItemsSource="{Binding }"  Background="White" FlowDirection="RightToLeft" SelectionMode="Extended"  FontFamily="Hacen Saudi Arabia" FontSize="14" SelectionUnit="FullRow" Visibility="Visible"  ScrollViewer.VerticalScrollBarVisibility="Visible"   ScrollViewer.HorizontalScrollBarVisibility="Disabled" CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn  x:Name="BuyIDIDColumn" Width="100" Header="رقم الفاتورة" Binding="{Binding ID}" IsReadOnly="True"/>
+                    <DataGridTextColumn  x:Name="NameProductColumn" Width="105" Header="المنتج" Binding="{Binding Name}"/>
+                    <DataGridTextColumn  x:Name="BuyCostColumn" Width="110" Header="التكلفة" Binding="{Binding Cost}" IsReadOnly="True" Foreground="Red"/>
+                    <DataGridTextColumn  x:Name="BuyQuantityColumn" Width="110" Header="الكمية" Binding="{Binding Quantity}" Foreground="#FF2196F3"/>
+                    <DataGridTextColumn  x:Name="TotalCostColumn" Width="110" Header="السعر الأجمالي" Binding="{Binding TotalPrice}" IsReadOnly="True" Foreground="Red"/>
+                    <DataGridTextColumn  x:Name="CauleColumn" Width="110" Header="المورد" Binding="{Binding CauleName}" IsReadOnly="True" />
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <DataGrid x:Name="dgDebtBill" Height="365" Width="1100" HorizontalAlignment="Left" VerticalAlignment="Top"  AutoGenerateColumns="False" ItemsSource="{Binding }"  Background="White" FlowDirection="RightToLeft" SelectionMode="Extended"  FontFamily="Hacen Saudi Arabia" FontSize="14" SelectionUnit="FullRow" Visibility="Collapsed"  ScrollViewer.VerticalScrollBarVisibility="Visible"   ScrollViewer.HorizontalScrollBarVisibility="Disabled" CanUserAddRows="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn  x:Name="DebtIDColumn" Width="100" Header="رقم الفاتورة" Binding="{Binding ID}" IsReadOnly="True"/>
+                    <DataGridTextColumn  x:Name="DebtNameProductColumn" Width="125" Header="المنتج" Binding="{Binding Name}"/>
+                    <DataGridTextColumn  x:Name="DebtUnitColumn" Width="105" Header="الوحدة" Binding="{Binding Unit}"/>
+                    <DataGridTextColumn  x:Name="DebtCustomerColumn" Width="100" Header="الزبون" Binding="{Binding CustomerName}" IsReadOnly="True" />
+                    <DataGridTextColumn  x:Name="DebtCostColumn" Width="100" Header="السعر" Binding="{Binding Price}" IsReadOnly="True" Foreground="Green"/>
+                    <DataGridTextColumn  x:Name="DebtQuantityColumn" Width="70" Header="الكمية" Binding="{Binding Quantity}" Foreground="#FF2196F3"/>
+                    <DataGridTextColumn  x:Name="DebtTotalColumn" Width="110" Header="السعر الأجمالي" Binding="{Binding TotalPrice}" IsReadOnly="True" Foreground="Green"/>
+                    <DataGridTextColumn  x:Name="PaidColumn" Width="105" Header="المبلغ المسدد" Binding="{Binding Paid}" IsReadOnly="True" Foreground="Green"/>
+                    <DataGridTextColumn  x:Name="ReminderColumn" Width="90" Header="قيمة الدين" Binding="{Binding Reminder}" IsReadOnly="True" Foreground="Red"/>
+                    <DataGridTextColumn  x:Name="BillDateColumn" Width="210" Header="تاريخ الفاتورة" Binding="{Binding SaleDate}" IsReadOnly="True" />
+
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </Grid>
+    </Grid>
+</UserControl>

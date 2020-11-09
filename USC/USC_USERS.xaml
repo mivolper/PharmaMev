@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="PharmaMev.USC.USC_USERS"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PharmaMev.USC"
+             mc:Ignorable="d" 
+             xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             d:DesignHeight="715" d:DesignWidth="1300" Loaded="UserControl_Loaded">
+    <Grid  >
+        
+        <Grid x:Name="GridControls" Width="940" HorizontalAlignment="Right" Height="355" VerticalAlignment="Top" Background="White">
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="1" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <StackPanel x:Name="StackMainDetails" Width="550" HorizontalAlignment="Right" VerticalAlignment="Top" >
+                <TextBox x:Name="txtUserName" materialdesign:HintAssist.Hint="اسم المستخدم" FontFamily="Hacen Saudi Arabia" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FlowDirection="RightToLeft" HorizontalAlignment="Right" Width="400" FontSize="18" Margin="0 40 30 0"/>
+                <TextBox x:Name="txtUserPassWard" materialdesign:HintAssist.Hint="كلمة المرور " FontFamily="Hacen Saudi Arabia" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FlowDirection="RightToLeft" HorizontalAlignment="Right" Width="400" FontSize="18" Margin="0 30 30 0"/>
+            </StackPanel>
+            <Grid x:Name="Gridbtn" Height="150" Margin="0 10 0 0" Width="550" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                <Button x:Name="btnNewUser" Content="جديد" FontFamily="Hacen Saudi Arabia" Width="250" Height="40" HorizontalAlignment="Right" Margin="0 30 20 0" VerticalAlignment="Top" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnNewUser_Click"/>
+                <Button x:Name="btnSaveUser" Content="حفظ" FontFamily="Hacen Saudi Arabia" Width="250" Height="40" HorizontalAlignment="Left" Margin="0 30 0 0" VerticalAlignment="Top" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnSaveUser_Click"/>
+                <Button x:Name="btnDeletUser" Content="حذف" FontFamily="Hacen Saudi Arabia" Width="250" Height="40" HorizontalAlignment="Left" Margin="0 20 0 15" VerticalAlignment="Bottom" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnDeletUser_Click"/>
+                <Button x:Name="btnEditUser" Content="تعديل" FontFamily="Hacen Saudi Arabia" Width="250" Height="40" HorizontalAlignment="Right" Margin="0 20 20 15" VerticalAlignment="Bottom" materialdesign:ShadowAssist.ShadowDepth="Depth3" Click="btnEditUser_Click"/>
+
+            </Grid>
+            <Grid x:Name="sd"/>
+
+            <StackPanel x:Name="StackPrmDetails" Width="360" HorizontalAlignment="Left" >
+                <TextBlock Text="صلاحيات المستخدم" FontFamily="Hacen Saudi Arabia" FontSize="22" HorizontalAlignment="Right" Margin="10" Foreground="#FF555454" />
+                <CheckBox x:Name="chbSaleScreen" Content="شاشة البيع" HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 0 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+                <CheckBox x:Name="chbBuyScreen" Content="شاشة المشتريات" HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 10 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+                <CheckBox x:Name="chbProductsMange" Content="ادارة الاصناف والمجموعات والموردين" HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 10 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+                <CheckBox x:Name="chbReportsMange" Content="ادارة التقاريري " HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 10 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+                <CheckBox x:Name="chbUsersMange" Content="ادارة المستخدمين" HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 10 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+                <CheckBox x:Name="chbStorage" Content="ادارة المحازن " HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 10 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+                <CheckBox x:Name="chbSetting" Content="الاعدادات " HorizontalAlignment="Right" FlowDirection="RightToLeft" Margin="0 10 10 0" FontFamily="Hacen Saudi Arabia" Foreground="#FF767676" FontSize="20" />
+            </StackPanel>
+        </Grid>
+
+        <Grid Height="355" Width="350" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White">
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="3" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <TextBlock Text="شاشة البحث " FlowDirection="RightToLeft" FontFamily="Hacen Saudi Arabia" FontSize="22" Foreground="#FF555454" Margin="0 20 20 0" Width="300" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top"/>
+
+            <TextBox x:Name="txtSearch" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialdesign:HintAssist.Hint="بحث (باسم المستخدم)" FontFamily="Hacen Saudi Arabia" Width="300" FontSize="18" FlowDirection="RightToLeft" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 20 20 180" TabIndex="1" TextChanged="txtSearch_TextChanged" />
+
+        </Grid>
+        <Grid Background="White" Height="370" Width="1300" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,-17">
+            <Grid.Effect>
+                <DropShadowEffect Color="LightGray" ShadowDepth="3" RenderingBias="Quality"/>
+            </Grid.Effect>
+
+            <DataGrid x:Name="dgUsers"  Width="1200" HorizontalAlignment="Right" IsReadOnly="True"  AutoGenerateColumns="False" ItemsSource="{Binding }"  Background="White" FlowDirection="RightToLeft" SelectionMode="Extended"  FontFamily="Hacen Saudi Arabia" FontSize="15" SelectionUnit="FullRow" SelectionChanged="dgUsers_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Visible"  >
+                <DataGrid.Columns >
+                    
+                    <DataGridTextColumn  x:Name="IDColumn" Width="0" Header="ر.ت" Binding="{Binding ID_User}"/>
+                    <DataGridTextColumn x:Name="UserNameColumn" Width="SizeToHeader" Header="اسم المستخدم" Binding="{Binding User_Name}"/>
+                    <DataGridTextColumn x:Name="PassWardColumn" Width="SizeToHeader" Header="كلمة المرور" Binding="{Binding User_Psw}"/>
+                    <DataGridCheckBoxColumn  x:Name="SalePrmColumn" Width="SizeToHeader" Header="صلاحية البيع" Binding="{Binding SalePermissions}" />
+                    <DataGridCheckBoxColumn x:Name="BuyPrmColumn" Width="SizeToHeader" Header="صلاحية المشتريات" Binding="{Binding BuyPermissions}" />
+                    <DataGridCheckBoxColumn x:Name="ProductsPrmColumn" Width="SizeToHeader" Header="صلاحية ادارة الاصناف" Binding="{Binding ProductsPermissions}"/>
+                    <DataGridCheckBoxColumn x:Name="ReportsPrmColumn" Width="SizeToHeader" Header="صلاحية ادارة التقارير " Binding="{Binding ReportsPermissions}"/>
+                    <DataGridCheckBoxColumn x:Name="UsersPrmColumn" Width="SizeToHeader" Header="صلاحية ادارة المستخدمين" Binding="{Binding UsersPermissions}"/>
+                    <DataGridCheckBoxColumn x:Name="StoragePrmColumn" Width="SizeToHeader" Header="صلاحية المخزن" Binding="{Binding StoragePermissions}"/>
+                    <DataGridCheckBoxColumn x:Name="SettingsPrmColumn" Width="SizeToHeader" Header="صلاحية الاعدادات" Binding="{Binding SettingPermissions}"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>

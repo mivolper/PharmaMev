@@ -1,0 +1,122 @@
+﻿<UserControl x:Class="PharmaMev.USC.USC_KEYBOARd"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PharmaMev.USC"
+             mc:Ignorable="d" 
+             xmlns:materialdesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             d:DesignHeight="370" d:DesignWidth="820">
+    <Grid Background="#FF2196F3">
+    <Grid Background="#FFF0F0F0" Height="350" Width="800" VerticalAlignment="Bottom">
+        <WrapPanel x:Name="wrp" Width="800" Height="350" VerticalAlignment="Bottom"  Margin="0 0 0 0" Visibility="Collapsed">
+            <Button Width="65" Height="50" Margin="30 20 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="1" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="2" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="3" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="4" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="5" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="6" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="7" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="8" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="9" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="0" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+
+            <Button Width="55" Height="50" Margin="30 10 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="Q" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="W" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="E" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="R" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="T" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="Y" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="U" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="I" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="O" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="P" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="90" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3"  FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click_1">
+                <materialdesign:PackIcon Kind="KeyboardBackspace" Height="25" Width="25"/>
+            </Button>
+
+            <Button Width="55" Height="50" Margin="50 20 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="A" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="S" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="D" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="F" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="G" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="H" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="J" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="K" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="L" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="Z" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="X" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+
+
+
+            <Button Width="55" Height="50" Margin="30 20 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="C" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="V" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="B" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3"  FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click_2">
+            <materialdesign:PackIcon Kind="KeyboardVariant" Height="25" Width="25"/>
+            </Button>
+            <Button Width="220" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content=" " FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="." FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="M" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="N" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content=" " FontFamily="Hacen Saudi Arabia" FontSize="22"/>
+
+        </WrapPanel>
+
+        <WrapPanel x:Name="wrp2" Width="800" Height="350" VerticalAlignment="Bottom"  Margin="0 0 0 0">
+            <Button Width="65" Height="50" Margin="30 20 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="1" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="2" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="3" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="4" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="5" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="6" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="7" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="8" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="9" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="65" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="0" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+
+            <Button Width="55" Height="50" Margin="30 10 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ض" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ص" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ث" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ق" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ف" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="غ" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ع" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="خ" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ح" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ج" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="90" Height="50" Margin="5 10 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3"  FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click_1">
+                <materialdesign:PackIcon Kind="KeyboardBackspace" Height="25" Width="25"/>
+            </Button>
+
+            <Button Width="55" Height="50" Margin="50 20 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ش" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="س" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ي" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ب" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ل" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ا" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ت" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ن" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="م" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ك" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ط" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+
+
+
+            <Button Width="55" Height="50" Margin="30 20 5 5" materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ذ" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="د" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ر" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3"  FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click_3">
+                <materialdesign:PackIcon Kind="KeyboardVariant" Height="25" Width="25"/>
+            </Button>
+            <Button Width="220" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content=" " FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="و" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ز" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ظ" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+            <Button Width="55" Height="50" Margin="5 20 5 5 " materialdesign:ShadowAssist.ShadowDepth="Depth3" Content="ه" FontFamily="Hacen Saudi Arabia" FontSize="22" Click="Button_Click"/>
+
+        </WrapPanel>
+
+    </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,289 @@
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe.config
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\PharmaMev.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_GROUPS_MANGE.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_PRODUCTS_MANGE.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_SALES.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_USERS.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\Windows\LOGIN_WINDOW.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\App.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev_MarkupCompile.cache
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev_MarkupCompile.lref
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\App.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_GROUPS_MANGE.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_PRODUCTS_MANGE.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_SALES.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_USERS.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\Windows\LOGIN_WINDOW.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\Windows\MainWindow.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.g.resources
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.Properties.Resources.resources
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_BUYS.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_BUYS.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_CUAL_CUSTOMER.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_CUAL_CUSTOMER.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\sapbusinessobjects.wpf.viewer.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\FlashControlV71.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\stdole.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\CRReport\REPORT_WINDOW.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\CRReport\REPORT_WINDOW.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_REPORTS.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_REPORTS.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Data.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Mvvm.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.Core.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.LayoutControl.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Printing.v18.2.Core.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Images.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Pdf.v18.2.Core.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Data.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Mvvm.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.Core.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.LayoutControl.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Printing.v18.2.Core.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\Windows\Setting_Window.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\Windows\Setting_Window.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe.licenses
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_BACKUP.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_BACKUP.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_SELECT_PRODUCT.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_SELECT_PRODUCT.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_Store.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_Store.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_KEYBOARd.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\USC\USC_KEYBOARd.baml
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe.manifest
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\bin\Debug\PharmaMev.application
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe.manifest
+C:\Users\user\Desktop\كورسات برمجه\Projets\PharmaMev\PharmaMev\obj\Debug\PharmaMev.application
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe.config
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe.manifest
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.application
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Data.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Mvvm.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.Core.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.LayoutControl.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\sapbusinessobjects.wpf.viewer.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\SAPBusinessObjects.WPF.ViewerShared.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Printing.v18.2.Core.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Images.v18.2.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\FlashControlV71.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\stdole.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Pdf.v18.2.Core.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Data.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Mvvm.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.Core.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Xpf.LayoutControl.v18.2.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Printing.v18.2.Core.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Data.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Xpf.Core.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v18.2.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Printing.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\de\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\es\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ja\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ru\DevExpress.Pdf.v18.2.Core.resources.dll
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\CRReport\REPORT_WINDOW.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BACKUP.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BUYS.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_CUAL_CUSTOMER.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_GROUPS_MANGE.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_KEYBOARd.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_PRODUCTS_MANGE.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_REPORTS.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SALES.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SELECT_PRODUCT.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_Store.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_USERS.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\LOGIN_WINDOW.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\Setting_Window.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\App.g.cs
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev_MarkupCompile.cache
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev_MarkupCompile.lref
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\App.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\CRReport\REPORT_WINDOW.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BACKUP.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BUYS.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_CUAL_CUSTOMER.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_GROUPS_MANGE.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_KEYBOARd.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_PRODUCTS_MANGE.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_REPORTS.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SALES.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SELECT_PRODUCT.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_Store.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_USERS.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\LOGIN_WINDOW.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\MainWindow.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\Setting_Window.baml
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.g.resources
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.Properties.Resources.resources
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe.licenses
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe.manifest
+C:\Users\user\Desktop\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.application
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe.config
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.pdb
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe.manifest
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.application
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.exe
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\PharmaMev.pdb
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignColors.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\FlashControlV71.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\stdole.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignColors.pdb
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\CRReport\REPORT_WINDOW.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BACKUP.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BUYS.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_CUAL_CUSTOMER.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_GROUPS_MANGE.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_KEYBOARd.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_PRODUCTS_MANGE.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_REPORTS.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SALES.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SELECT_PRODUCT.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_Store.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_USERS.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\LOGIN_WINDOW.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\App.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev_MarkupCompile.cache
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev_MarkupCompile.lref
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\App.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\CRReport\REPORT_WINDOW.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BACKUP.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_BUYS.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_CUAL_CUSTOMER.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_GROUPS_MANGE.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_KEYBOARd.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_PRODUCTS_MANGE.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_REPORTS.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SALES.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_SELECT_PRODUCT.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_Store.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_USERS.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\LOGIN_WINDOW.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\Windows\MainWindow.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.g.resources
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.Properties.Resources.resources
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe.licenses
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.exe.manifest
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.application
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_ALERTS.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\USC\USC_ALERTS.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\AdminUSC\Admin.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\AdminUSC\USC_ADMIN.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\AdminUSC\Admin.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\AdminUSC\USC_ADMIN.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\AdminUSC\USC_RESTORE.g.cs
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\AdminUSC\USC_RESTORE.baml
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csprojAssemblyReference.cache
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\obj\Debug\PharmaMev.csproj.CopyComplete
+C:\Users\user\Desktop\ميسر بن سعيد\كورسات برمجه\Projects\PharmaMev\PharmaMev\bin\Debug\Nevron.Nov.WpfControls.dll
